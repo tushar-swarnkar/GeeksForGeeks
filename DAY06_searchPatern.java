@@ -5,7 +5,7 @@ public class DAY06_searchPatern {
         String text = "birthdayboy";
         String pattern = "birth";
 
-        System.out.println(search(pattern, pattern));
+        System.out.println(search(text, pattern));
     }
     static ArrayList<Integer> search(String p, String t) {
         // your code here
