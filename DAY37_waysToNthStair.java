@@ -1,7 +1,7 @@
 public class DAY37_waysToNthStair {
     public static void main(String[] args) {
         int n = 4;
-        System.out.println(countWays(j));
+        System.out.println(countWays(n));
     }
     static Long countWays(int n) {
         // your code here
