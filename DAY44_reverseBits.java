@@ -1,7 +1,7 @@
 public class DAY44_reverseBits {
     public static void main(String[] args) {
         long x = 1l;
-        System.out.println(reversedBits(null));
+        System.out.println(reversedBits(x));
     }
     static Long reversedBits(Long x) {
         // code here
