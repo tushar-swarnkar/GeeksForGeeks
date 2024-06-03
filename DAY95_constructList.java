@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class DAY95_constructList {
     public static void main(String[] args) {
         
