@@ -1,0 +1,26 @@
+public class DAY238_sumOfLantNNodes {
+
+    public int sumOfLastN_Nodes(Node head, int n) {
+        int count = 0;
+        Node temp = head;
+
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+
+        int diff = Math.abs(count - n);
+        temp = head;
+
+        for (int i = 1; i <= diff; i++) {
+            temp = temp.next;
+        }
+
+        int sum = 0;
+        while (temp != null) {
+            sum += temp.data;
+            temp = temp.next;
+        }
+        return sum;
+    }
+}
